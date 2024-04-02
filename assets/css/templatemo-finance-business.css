@@ -1493,7 +1493,7 @@ footer .contact-form button.filled-button:hover {
 	
 }
 .events h4{
-	font-size: 4vw;
+	font-size: 2.5vw;
 	font-weight: 700;
 }
 @media(max-width : 500px){
@@ -1512,4 +1512,22 @@ footer .contact-form button.filled-button:hover {
 .frame img{
 	width: 100%;
 	border-radius: 10px;
+}
+.contact-item{
+	min-height: 385px;
+}
+@media(min-width:992px) and (max-width:1199px){
+	.contact-item{
+		min-height: 412px;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	.contact-item{
+        min-height: 496px;
+    }
+}
+@media(max-width : 767px){
+	.contact-item{
+        height: auto;
+    }
 }
