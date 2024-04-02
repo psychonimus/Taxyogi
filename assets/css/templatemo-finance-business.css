@@ -337,6 +337,11 @@ header .navbar {
 .main-logo{
 	height: 80px;
 }
+@media(max-width : 400px){
+	.main-logo{
+		height: 60px;
+	}
+}
 .navbar .navbar-toggler {
 	
 	height: 36px;
@@ -799,7 +804,7 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 40px;
 }
 
 .callback-form .contact-form {
