@@ -13,9 +13,15 @@
   <title>Finance Business - Services</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 
   <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
   <link rel="stylesheet" href="assets/css/owl.css">
@@ -41,7 +47,7 @@ https://templatemo.com/tm-545-finance-business
   <!-- ***** Preloader End ***** -->
 
   <!-- Header -->
-  <div class="sub-header">
+  <!-- <div class="sub-header">
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-xs-12">
@@ -60,54 +66,63 @@ https://templatemo.com/tm-545-finance-business
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <header class="">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <h2>Finance Business</h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="services.html">Our Services</a>
-            </li>
+  <nav class="navbar navbar-expand-lg fixed-top bg-light"
+    style="height: 80px; box-shadow: 0px 1px 10px rgba(0,0,0,0.1);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="assets/images/dashpute-logo-dark.png" alt=""
+          class="img-fluid main-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html">Home
 
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="services.html">Our Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="knowledge.html">Knowledge Base</a>
+          </li>
 
 
-            <li class="nav-item">
-              <a class="nav-link" href="one-page.html">Blog</a>
-            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Media
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blogs.html">Blogs</a></li>
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
 
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
-        </div>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
 
   <!-- Page Content -->
-  <div class="page-heading header-text">
+  <div class="page-heading header-text" style="background-image: url(./assets/images/page-heading-bg.webp);">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1>Our Services</h1>
-          <span>We are over 20 years of experience</span>
+          <span>We Provide Wide Range of Financial and Accounting Services</span>
         </div>
       </div>
     </div>
@@ -118,7 +133,7 @@ https://templatemo.com/tm-545-finance-business
       <div class="row" id="tabs">
         <div class="col-md-4">
           <ul>
-            <li><a href='#tabs-1'>Formation of Business Entity <i class="fa fa-angle-right"></i></a></li>
+            <li class="on"><a href='#tabs-1'>Formation of Business Entity <i class="fa fa-angle-right"></i></a></li>
             <li><a href='#tabs-2'>Registrations<i class="fa fa-angle-right"></i></a></li>
             <li><a href='#tabs-3'>Advisory<i class="fa fa-angle-right"></i></a></li>
             <li><a href='#tabs-4'>Taxation<i class="fa fa-angle-right"></i></a></li>
@@ -132,110 +147,124 @@ https://templatemo.com/tm-545-finance-business
         <div class="col-md-8">
           <section class='tabs-content'>
             <article id='tabs-1'>
-              <img src="assets/images/single_service_01.jpg" alt="">
-              <h4>Formation of Business Entity</h4>
-              <p>To all of our clients who want to step into the business world and start a venture of their own, we
-                provide you with all the help to start your business from scratch. Easy as it may sound, starting your
-                own business venture can be quite a long process. It includes choosing a business niche, developing a
-                business plan, understanding the registration process, filing taxes, and a lot more. All of this
-                requires ample research and meticulous planning. With the help of our business formation services, we
-                register all your documents to establish your business, take care of your business registration, manage
-                taxes as well as keep track of your finances.</p><br>
-              <p><b>We extend our services for the formation of the following entities - </b></p>
+              <img src="assets/images/formation_of_business_entity.webp" alt="Formation of Business Entity">
+              <h2>Formation of Business Entity</h2><br>
+              <p>For our clients looking to venture into the business world and launch their enterprise, we offer
+                comprehensive support to kickstart your business journey. While starting a business may seem simple, the
+                process can be quite extensive. It involves selecting a business niche, creating a business strategy,
+                navigating the registration procedures, handling tax obligations, and much more. All these steps demand
+                thorough research and careful planning. Through our business formation services, we handle all the
+                paperwork necessary to establish your business, facilitate the registration process, manage tax matters,
+                and oversee your financial records.
+              </p><br>
+              <p><b>We assist in setting up the following entities:</b></p>
               <ul>
                 <li>Private Ltd Co. / One Person Co.</li>
-                <li>LLP</li>
+                <li>Limited Liability Partnership (LLP)</li>
                 <li>Partnership</li>
                 <li>Sole Proprietorship</li>
-                <li>NGO</li>
+                <li>Non-Governmental Organization (NGO)</li>
                 <li>Trust</li>
               </ul>
+
             </article>
+
+
             <article id='tabs-2'>
-              <img src="assets/images/single_service_02.jpg" alt="">
-              <h4>Registrations</h4>
-              <p>Registrations are important to lend authenticity to your venture, in addition to establishing
-                transparency between your customers and your business. It is mandatory to complete the registration
-                process for your business venture to be considered a legal entity. Be it a startup, an independent
-                entity, an MSME, or even an intellectual property, every venture must be registered to prove its
-                legitimacy. While you set up your business venture, let us look after the necessary registrations.
+              <img src="assets/images/registration.webp" alt="Registration">
+              <h2>Registrations</h2><br>
+              <p>Ensuring your venture is registered is crucial for establishing credibility and transparency with your
+                customers. Registration is a legal requirement for your business to be recognized as a legitimate
+                entity, whether it's a startup, independent business, MSME, or intellectual property.
               </p><br>
-              <p><b>We offer all types of government registrations, such as Udyam Registration, Import Export Code
-                  generation, etc. These include –</b></p>
-              <ul>
-                <li>PAN</li>
-                <li>TAN</li>
-                <li>Shop & Establishments Licence</li>
-                <li>MSME Registration</li>
-                <li>Import Export License</li>
-                <li>GST Registration</li>
-                <li>ESI Registration</li>
-                <li>Trademark Registration</li>
-                <li>Professional Tax Registration</li>
-                <li>ISO Registration</li>
-                <li>FSSAI Registration</li>
-                <li>80/12A Registration</li>
-                <li>Charitable Trust Registration</li>
-                <li>NGO Registration</li>
-                <li>FCRA Registration</li>
-                <li>Digital Signature Certificate</li>
-                <li>Oman VAT Registration</li>
-                <li>UAE VAT Registration</li>
-              </ul>
+              <p><b>We provide comprehensive government registration services, including</b></p>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <ul>
+                    <li>PAN</li>
+                    <li>TAN</li>
+                    <li>Shop & Establishments Licence</li>
+                    <li>MSME Registration</li>
+                    <li>Import Export License</li>
+                    <li>GST Registration</li>
+                    <li>ESI Registration</li>
+                    <li>Trademark Registration</li>
+
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <ul>
+                    <li>Professional Tax Registration</li>
+                    <li>ISO Registration</li>
+                    <li>FSSAI Registration</li>
+                    <li>80/12A Registration</li>
+                    <li>Charitable Trust Registration</li>
+                    <li>NGO Registration</li>
+                    <li>FCRA Registration</li>
+                    <li>Digital Signature Certificate</li>
+                  </ul>
+                </div>
+              </div>
+
+
             </article>
+
             <article id='tabs-3'>
-              <img src="assets/images/single_service_03.jpg" alt="">
-              <h4>Advisory</h4>
-              <p>We provide a comprehensive set of business, legal, and financial advisory services in order to keep up
-                with the growth of your business. We excel in developing excellent financial strategies and airtight
-                business plans. We also pay close attention to all the new laws coming up in the compliance system and
-                guide you through times of crisis, while ensuring that your brand image stays intact. We have a proven
-                track record in implementing strategies to track business goals and overseeing mergers and acquisitions.
+              <img src="assets/images/advisory.webp" alt="Advisory">
+              <h2>Advisory</h2><br>
+              <p>We offer a comprehensive range of business, legal, and financial advisory solutions to support your
+                business growth. Our expertise lies in crafting robust financial strategies and meticulous business
+                plans. We stay updated on evolving regulations, guiding you during challenging times to safeguard your
+                brand reputation. With a proven track record in goal-oriented strategy implementation and overseeing
+                mergers and acquisitions, our services encompass:
+
               </p><br>
               <p><b>Our wide array of services includes –</b></p>
               <ul>
-                <li>Company Law Advisory Services</li>
-                <li>Advisory in FEMA</li>
-                <li>Investment Planning</li>
-                <li>GST Advisory</li>
-                <li>Due Diligence of a Company</li>
-                <li>Mergers and Acquisitions</li>
-                <li>Corporate Restructuring</li>
+                <li>Corporate Law Consultation</li>
+                <li>FEMA Advisory</li>
+                <li>Investment Strategy</li>
+                <li>GST Consultancy</li>
+                <li>Company Due Diligence </li>
+                <li>Mergers and Acquisition Facilitation</li>
+                <li>Business Restructuring</li>
                 <li>GST Health Checkups</li>
-                <li>Oman VAT Advisory</li>
-                <li>UAE VAT Advisory</li>
-                <li>Qatar VAT Advisory</li>
-                <li>Balance Sheet Health Checkups</li>
+                <li>GST and Balance Sheet Audits</li>
               </ul>
             </article>
+
+
             <article id='tabs-4'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Taxation</h4>
-              <p>We help you comply with all your tax needs and simplify the entire process by managing your
-                finances for you. We focus on helping you achieve maximum tax benefits while maintaining allthe
-                necessary compliances as per the government regulations in India, Oman, and Qatar. In
-                addition we also help you with PF, ESI, Professional Tax management.
-                We implement strategies that are tax effective and adopt tax structures for better financial
-                planning. Taxation services differ from client to client, and we keep ourselves constantly updated
-                with the changing rules and regulations, and help your business keep up with it.
+              <img src="assets/images/taxation.webp" alt="Taxation">
+              <h2>Taxation Solutions</h2><br>
+              <p>Our comprehensive tax services streamline your financial management processes, ensuring compliance and
+                maximizing tax benefits. We specialize in navigating the complexities of tax regulations in India, Oman,
+                and Qatar, while also assisting with PF, ESI, and Professional Tax management. <br>
+                We craft tax-efficient strategies and implement tailored tax structures to enhance your financial
+                planning. Recognizing that taxation requirements vary for each client, we stay abreast of evolving rules
+                and regulations to ensure your business remains compliant.
               </p><br>
-              <p><b>Our services include -</b></p>
+              <p><b>Our services encompass -</b></p>
               <ul>
-                <li>Income Tax Return Filing (Business / Salaried)</li>
-                <li>Expat Returns</li>
+                <li>Income Tax Filing for Businesses and Salaried Individuals</li>
+                <li>Expat Tax Returns</li>
               </ul>
             </article>
+
+
             <article id='tabs-5'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Secretarial Compliances</h4>
-              <p><b>Annual RoC Filing of Company / LLP</b><br>
-                Secretarial compliances include ensuring if your business venture is in compliance with the required
-                laws, regulations, records, accounts, etc. With the help of our combined accounting, financial and
-                regulatory services, you can make sure that your business adheres to the guidelines established by the
-                government.
+              <img src="assets/images/Secretarial_Compliances.webp" alt="Secretarial Compliances">
+              <h2>Secretarial Compliances</h2><br>
+              <p><b>Ensure Compliance with Annual RoC Filing of Company / LLP</b><br>
+                Secretarial compliances encompass verifying that your business operations align with the necessary laws,
+                regulations, records, accounts, etc. By leveraging our integrated accounting, financial, and regulatory
+                services, you can guarantee that your business conforms to the standards mandated by the government. Our
+                commitment is to assist you in meeting all the requirements while enhancing your business processes.
+
               </p><br>
-              <p><b>Our assurance is that we will help you comply with all the standards while improving your business
-                  operations.</b></p>
+              <p><b>Key Forms and Processes:
+                </b></p>
               <ul>
                 <li>Form 11 for LLP</li>
                 <li>DPT-3</li>
@@ -246,126 +275,491 @@ https://templatemo.com/tm-545-finance-business
                 <li>MGT-7</li>
                 <li>MGT-14</li>
                 <li>Form MSME</li>
-                <li>Add a Director / Designated Partner</li>
-                <li>Remove a Director</li>
-                <li>Increase Share Capital</li>
-                <li>Change LLP Agreement</li>
-                <li>Close Private Ltd. Co. / LLP</li>
+                <li>Addition or removal of a Director/Designated Partner</li>
+
+                <li>Share capital increment</li>
+                <li>Amendment of LLP Agreement</li>
+                <li>Dissolution of Private Limited Company / LLP</li>
               </ul>
             </article>
+
+
             <article id='tabs-6'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Accounting Services</h4>
-              <p>It is imperative to keep track of your business’s finances, profits, losses, salary, or benefits. We
-                help you maintain your books and accounts by accessing your various ledgers, as well as filing TDS, GST
-                returns, etc. We keep track of all your sales and purchase details, and maintain thorough records from
-                all your vendors and their bills. We also ensure that all your invoices and bills are paid as per your
-                business processes. Additionally, we also keep track of employee records within your business, their
-                benefits, and expenses. Our accounting and outsourcing services span India as well as Australia.
+              <img src="assets/images/Accounting.webp" alt="Accounting">
+              <h2>Accounting Services</h2><br>
+              <p>We provide essential accounting services to help you manage your business finances effectively. Our
+                services include maintaining your financial records, processing TDS and GST returns, and keeping track
+                of sales and purchase transactions. We also handle vendor bills, ensure timely payment of invoices, and
+                manage employee records, benefits, and expenses. Our accounting and outsourcing solutions cater to
+                businesses in India and Australia.
               </p><br>
+
+              <p>Our Services Incompass :</p>
 
               <ul>
                 <li>Accounts writing and Bookkeeping</li>
-                <li>Payroll Maintenance</li>
-                <li>Payables Maintenance</li>
-                <li>Receivables Maintenance</li>
+                <li>Payroll Management</li>
+                <li>Accounts Payable Management</li>
+                <li>Receivables MaintenanceAccounts Receivable Management</li>
               </ul>
             </article>
+
             <article id='tabs-7'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Compliance Services</h4>
-              <p>In order for your business to function without any hindrance, it is essential to comply with the
-                financial rules and regulations of the government. Your business has to meet certain requirements and
-                standards in order to qualify to employ people. We make sure that your business will comply with all the
-                regulations of the government. We will make sure that your monthly returns, audits, yearly returns are
-                reported and filed well within the required government guidelines.
+              <img src="assets/images/compliance.webp" alt="Compliance Services">
+              <h2>Compliance Services</h2> <br>
+              <p>Our comprehensive compliance services ensure that your business operates smoothly by meeting all
+                government financial regulations. By ensuring adherence to these rules, your business can qualify to
+                employ individuals while we handle the meticulous reporting and filing of monthly, yearly, and audit
+                returns within the stipulated government guidelines, covering
+
               </p><br>
 
               <ul>
-                <li>TDS Returns</li>
                 <li>GST Returns</li>
+                <li>TDS Returns</li>
                 <li>PF Returns</li>
-                <li>ESI Returns</li>
                 <li>PT Returns</li>
-                <li>Oman VAT Returns</li>
-                <li>UAE VAT Returns</li>
-                <li>Qatar VAT Returns</li>
+                <li>ESI Returns</li>
               </ul>
             </article>
+
+
             <article id='tabs-8'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Outsourcing Services</h4>
-              <p>According to the needs of our client, we bring in third-part qualified professionals to deliver optimal
-                results. We help you fulfill your requirements by bringing in specialized service providers. We provide
-                onshore (from nearby or your own country), nearshore (from within the same time zone or from nearby
-                countries), or offshore (from different and more distant countries) outsourcing services that will be
-                valuable additions to your business.
+              <img src="assets/images/outsourcing.webp" alt="Outsourcing Services">
+              <h2>Outsourcing Services</h2><br>
+              <p>Tailoring our services to meet your specific needs, we engage third-party experts to ensure top-notch
+                outcomes. By enlisting specialized service providers, we assist you in meeting your requirements
+                effectively. Our outsourcing services encompass onshore (local or domestic), nearshore (same time zone
+                or neighboring countries), and offshore (distant countries) options, all designed to enhance your
+                business.
               </p><br>
 
               <ul>
-                <li>Bookkeeping Services</li>
-                <li>Tax Advisory / Compliances of different</li>
-                <li>Laws in different countries</li>
+                <li>Bookkeeping Assistance</li>
+                <li>Tax Consultation and Compliance</li>
+                <li>Various Jurisdictions</li>
               </ul>
             </article>
+
+
             <article id='tabs-9'>
-              <img src="assets/images/single_service_04.jpg" alt="">
-              <h4>Customized Reports</h4>
-              <p>The business requirement of every venture differs drastically. The records of every company differ
-                according to its requirements, for example, inventory, raw materials, components, etc. Manually
-                maintaining such reports can be a hassle, and also increase errors by a significant margin. However, we
-                provide our clients with customized reports according to the specific requirements of their business. We
-                also provide a wide range of formatting options according to your criteria. These reports can include
-                graphs in addition to data in tabular formats.
+              <img src="assets/images/customized_reports.webp" alt="Customized Reports">
+              <h2>Customized Reports</h2><br>
+              <p>Every business operates uniquely, with diverse needs and intricacies in record-keeping. Managing
+                reports manually under such circumstances can be cumbersome and prone to errors. However, we offer our
+                clients personalized reports customized to their business specifications. With various formatting
+                options available, including graph presentations alongside tabular data, our reports are crafted to meet
+                your precise criteria.
+
               </p><br>
 
               <ul>
-                <li>CMA Report</li>
-                <li>Project Report</li>
-                <li>Annual Budgeting</li>
-                <li>MIS Reports</li>
+                <li>Comprehensive CMA Reports</li>
+                <li>Project Assessments</li>
+                <li>Annual Budget Plans</li>
+                <li>Management Information System (MIS) Insights</li>
               </ul>
             </article>
+
           </section>
         </div>
       </div>
+
+
+      <div class="row mt-5 pt-5 block" id="div1" style="display: flex;">
+        <div class="col">
+          <div class="">
+            <h4>Why choose Dashpute and Associates for your new venture?</h4><br>
+            <p>Selecting Dashpute and Associates for your new venture offers access to expert advisors who provide
+              comprehensive solutions to address all your financial inquiries. We specialize in simplifying the
+              company formation process, clarifying regulations, managing paperwork, and aiding in establishing a
+              strong financial foundation for your business.</p>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5  block" id="div2" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why Choose Dashpute and Associates for Registration Services?</h4> <br>
+            <p>Experience a Streamlined Procedure</p>
+            <ul>
+              <li>We guarantee a straightforward and hassle-free process from registration to incorporation for
+                establishing your business.
+              </li>
+            </ul>
+            <br>
+
+            <p>Collaborate with Seasoned Professionals</p>
+            <ul>
+              <li>Benefit from our extensive understanding of registration regulations, schemes, and incentives,
+                making business registration a breeze for you.
+              </li>
+            </ul>
+            <br>
+
+            <p>Experience Expedited Service</p>
+            <ul>
+              <li>With our extensive experience and proficiency in the registration process, we deliver results 10
+                times faster.
+              </li>
+            </ul>
+            <br>
+
+            <p>Protect Your Business Identity
+            </p>
+            <ul>
+              <li>Rest assured that your venture's distinct identity is safeguarded by our strict client
+                confidentiality policies.
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div3" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why Get Advisory Services from Dashpute and Associates?</h4> <br>
+            <p>Reasons to Choose Advisory Services from Dashpute and Associates:</p>
+
+            <p>Extensive Experience and Expertise</p>
+            <ul>
+              <li>Our proficient team of professionals is well-equipped to address your business requirements promptly.
+                Additionally, our experts are available round-the-clock to facilitate smooth transitions within your
+                Organization.</li>
+            </ul>
+            <br>
+
+            <p>Established Market Credibility</p>
+            <ul>
+              <li>Our longstanding reputation in the market ensures that your projects are handled by a dependable
+                partner. We prioritise the protection of your intellectual property, including copyrights, trademarks,
+                and patents.</li>
+            </ul>
+            <br>
+
+            <p>Holistic Business Models</p>
+            <ul>
+              <li>We design strategic tax plans and recommendations tailored to your specific needs, focusing on
+                successful models to drive optimal business growth.
+              </li>
+            </ul>
+            <br>
+
+            <p>Customised Industry-Specific Guidance</p>
+            <ul>
+              <li>Leveraging our diverse experience across various business sectors, we offer precise advice relevant to
+                your industry vertical, avoiding generic, one-size-fits-all solutions.
+              </li>
+            </ul>
+            <br>
+
+            <p>Client-Focused Approach</p>
+            <ul>
+              <li>Placing utmost importance on client needs, we strive to deliver exceptional client satisfaction
+                through personlised service and support.</li>
+            </ul>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div4" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why Choose Dashpute and Associates for Taxation Services?</h4> <br>
+            <!-- <p>Reasons to Choose Advisory Services from Dashpute and Associates:</p> -->
+
+            <p>Optimise Tax Benefits</p>
+            <ul>
+              <li>We assist you in identifying key areas for maximising tax benefits and recommend optimal taxation
+                practices.</li>
+            </ul>
+            <br>
+
+            <p>Maintain Tax Compliance</p>
+            <ul>
+              <li>With Dashpute and Associates, your taxes are meticulously organized, ensuring readiness for audits and
+                assessments.</li>
+            </ul>
+            <br>
+
+            <p>Comprehensive Tax Planning Support</p>
+            <ul>
+              <li>Benefit from our extensive tax planning strategies and dedicated assistance with tax filings.
+
+              </li>
+            </ul>
+            <br>
+
+            <p>Prompt Tax Filing</p>
+            <ul>
+              <li>We ensure timely and regular tax filing to prevent any penalties, keeping your tax obligations in
+                check.
+              </li>
+            </ul>
+            <br>
+
+            <p>Expert Professional Team</p>
+            <ul>
+              <li>Our team comprises highly qualified professionals with profound expertise in all facets of taxation
+                services.</li>
+            </ul>
+            <br>
+
+            <p>Experience the difference with Dashpute and Associates - Your Partner for Tax Optimization and Compliance
+            </p>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div5" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why Dashpute and Associates for Your Annual RoC Filing and Secretarial Compliances?</h4> <br>
+            <!-- <p>Reasons to Choose Accounting Services by Dashpute and Associates: -->
+            </p><br>
+
+            <p>Comprehensive Solutions</p>
+            <ul>
+              <li>Tailored suite of services ensuring compliance.</li>
+            </ul><br>
+
+            <p>Expertise Across Domains</p>
+            <ul>
+              <li>Holistic approach with combined expertise.</li>
+            </ul><br>
+
+            <p>Seamless Process</p>
+            <ul>
+              <li>Streamlined compliance with our assurance.</li>
+            </ul><br>
+
+            <p>Timely and Accurate Filing</p>
+            <ul>
+              <li>Meticulous attention to detail for prompt submissions.</li>
+            </ul><br>
+
+            <p>Flexible Services</p>
+            <ul>
+              <li>Customized solutions for various requirements.</li>
+            </ul><br>
+
+            <p>Proactive Management</p>
+            <ul>
+              <li>Stay ahead with our proactive approach.</li>
+            </ul><br>
+
+            <p>Trusted Partner</p>
+            <ul>
+              <li>Years of experience and proven track record for peace of mind.</li>
+            </ul><br>
+
+
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div6" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why choose accounting services by Dashpute and Associates</h4> <br>
+            <p>Reasons to Choose Accounting Services by Dashpute and Associates:
+            </p><br>
+            <ul>
+              <li>Timely vendor payments with a priority on interest prevention
+              </li>
+            </ul><br>
+            <ul>
+              <li>Receive payments promptly according to terms
+              </li>
+            </ul><br>
+            <ul>
+              <li>Ensure tax compliance by filing GST and TDS returns punctually
+              </li>
+            </ul><br>
+            <ul>
+              <li>Centralised record-keeping for efficient access
+              </li>
+            </ul><br>
+            <ul>
+              <li>Ensure smooth business operation in every financial facet
+              </li>
+            </ul><br>
+
+
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div7" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>What sets Dashpute and Associates Compliance Services apart?</h4> <br>
+            <!-- <p>Reasons to Choose Accounting Services by Dashpute and Associates: -->
+            </p><br>
+            <ul>
+              <li>Comprehensive provision of all statutory compliance services
+              </li>
+            </ul><br>
+            <ul>
+              <li>Complete end-to-end compliance management with closure responsibilities
+              </li>
+            </ul><br>
+            <ul>
+              <li>Efficient handling of remittance and form submissions
+
+              </li>
+            </ul><br>
+            <ul>
+              <li>Regular compliance audits to analyze gaps and identify solutions
+              </li>
+            </ul><br>
+            <ul>
+              <li>Consistent delivery of compliance reports and statements
+
+              </li>
+            </ul><br>
+
+
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div8" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>Why Opt for Outsourcing Services with Dashpute and Associates?</h4> <br>
+            <!-- <p>Reasons to Choose Accounting Services by Dashpute and Associates: -->
+            </p><br>
+
+            <p>Effortless bookkeeping</p>
+            <ul>
+              <li>We handle your daily bookkeeping and payroll needs, allowing you to concentrate on expanding your
+                business.</li>
+            </ul><br>
+
+            <p>Data Confidentiality</p>
+            <ul>
+              <li>Our rigorous IT protocols guarantee the complete safety and confidentiality of all your company data.
+              </li>
+            </ul><br>
+
+            <p>Consistent Excellence</p>
+            <ul>
+              <li>TaxYogi's outsourcing services are characterized by quality, reliability, and efficiency.</li>
+            </ul><br>
+
+            <p>Trusted Partners</p>
+            <ul>
+              <li>Our clients rely on us for their bookkeeping and advisory requirements.</li>
+            </ul><br>
+
+            <p>Expertise and Professionalism</p>
+            <ul>
+              <li>We uphold a standard of professionalism and ensure that your accounts are managed by accredited
+                professionals.</li>
+            </ul><br>
+
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-5 pt-5 block" id="div9" style="display: none;">
+        <div class="col">
+          <div class="">
+            <h4>How Dashpute and Associates' Tailored Reports Drive Business Growth:</h4> <br>
+            <!-- <p>Reasons to Choose Accounting Services by Dashpute and Associates: -->
+            </p><br>
+
+            <p>Strategic Progress Mapping</p>
+            <ul>
+              <li>Pinpoint advancements in critical areas like manufacturing and cost efficiency, aligning with your
+                business's unique trajectory.</li>
+            </ul><br>
+
+            <p>Enhanced Transparency</p>
+            <ul>
+              <li>Foster transparency both internally and with auditors, fostering trust and credibility.
+              </li>
+            </ul><br>
+
+            <p>Focus Optimization</p>
+            <ul>
+              <li>Streamline efforts by pinpointing precise areas of focus, maximizing efficiency and impact.</li>
+            </ul><br>
+
+            <p>Revenue Modeling Precision</p>
+            <ul>
+              <li>Craft a robust revenue model grounded in historical data, guiding informed decision-making and
+                sustainable growth.</li>
+            </ul><br>
+
+            <p>Long-Term Clarity</p>
+            <ul>
+              <li>Prevent confusion and ensure long-term clarity by maintaining meticulous records and books, laying a
+                solid foundation for future success.</li>
+            </ul><br>
+
+          </div>
+        </div>
+        
+      </div>
+
+
     </div>
   </div>
 
-  <div class="callback-form callback-services">
+  <div class="callback-form">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
             <h2>Request a <em>call back</em></h2>
-            <span>interdum nisl ac urna tempor mollis</span>
+            <!-- <span>Etiam suscipit ante a odio consequat</span> -->
           </div>
         </div>
         <div class="col-md-12">
           <div class="contact-form">
-            <form id="contact" action="" method="post">
+            <form id="contact"
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeG5g1uJ4hadb__yVkko3fMgyBmCdTyMXUByF0PfhnWI1vJpQ/formResponse"
+              method="post">
               <div class="row">
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    <input name="entry.1889441395" type="text" class="form-control" id="name" placeholder="Full Name"
+                      required="true">
                   </fieldset>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*"
-                      placeholder="E-Mail Address" required="">
+                    <input name="entry.321133465" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*"
+                      placeholder="E-Mail Address" required="true">
                   </fieldset>
                 </div>
                 <div class="col-lg-4 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject"
-                      required="">
+                    <input name="entry.1642361231" type="text" class="form-control" id="subject" placeholder="Subject"
+                      required="true">
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message"
-                      required=""></textarea>
+                    <textarea name="entry.2083866496" rows="6" class="form-control" id="message"
+                      placeholder="Your Message" required="true"></textarea>
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
@@ -384,65 +778,89 @@ https://templatemo.com/tm-545-finance-business
 
 
   <!-- Footer Starts Here -->
-  <footer style="margin-top: 5rem;">
+  <footer style="margin-top: 2rem;" class="footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 footer-item">
-          <h4>Finance Business</h4>
-          <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
+        <div class="col-md-3 footer-item text-center text-md-start">
+          <div class="">
+            <img src="assets/images/dashpute-logo-light.png" alt="" style="width: 80%;">
+          </div><br>
+          
+          <div class="d-flex gap-2 justify-content-center justify-content-md-start my-2">
+            <i class="fa-solid fa-location-dot mt-2"></i>
+            <p>RAMA Equator, 5th Floor, Office No. 503, Adjacent to City International School, Morwadi, Pimpri, Pune –
+              411 018</p>
+          </div>
+          <div class="d-flex gap-2 align-items-center justify-content-center justify-content-md-start my-2">
+            <i class="fa-solid fa-envelope"></i>
+            <p>addashpute@gmail.com</p>
+          </div>
+          <div class="d-flex gap-2 align-items-center mt-3 justify-content-center justify-content-md-start my-2">
+            <i class="fa-solid fa-phone"></i>
+            <p>+91 98811 09458</p>
+          </div>
+          
+
           <ul class="social-icons">
-            <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a>
+
+            <li><a href="https://www.linkedin.com/company/dashpute-and-associates/" target="_blank"><i class="fa fa-linkedin"></i></a>
             </li>
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+
           </ul>
         </div>
-        <div class="col-md-3 footer-item">
-          <h4>Useful Links</h4>
+        <div class="col-md-3 footer-item text-center text-md-start">
+          <h4>Services</h4>
           <ul class="menu-list">
-            <li><a href="#">Vivamus ut tellus mi</a></li>
-            <li><a href="#">Nulla nec cursus elit</a></li>
-            <li><a href="#">Vulputate sed nec</a></li>
-            <li><a href="#">Cursus augue hasellus</a></li>
-            <li><a href="#">Lacinia ac sapien</a></li>
+            <li><a href="services.html">Formation of Business Entity</a></li>
+            <li><a href="services.html">Registrations</a></li>
+            <li><a href="services.html">Advisory</a></li>
+            <li><a href="services.html">Taxation</a></li>
+            <li><a href="services.html">Secretarial Compliances</a></li>
+            <li><a href="services.html">Accounting Services</a></li>
+            <li><a href="services.html">Compliance Services</a></li>
+            <li><a href="services.html">Outsourcing Services</a></li>
+            <li><a href="services.html">Customized Reports</a></li>
           </ul>
         </div>
-        <div class="col-md-3 footer-item">
-          <h4>Additional Pages</h4>
+        <div class="col-md-3 footer-item text-center text-md-start">
+          <h4>Quick Links</h4>
           <ul class="menu-list">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">How We Work</a></li>
-            <li><a href="#">Quick Support</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="knowledge.html">Knowledge Base</a></li>
+            <li><a href="blogs.html">Media</a></li>
+            <li><a href="about.html">Team</a></li>
           </ul>
         </div>
-        <div class="col-md-3 footer-item last-item">
+       
+        <div class="col-md-3 footer-item last-item text-center text-md-start">
           <h4>Contact Us</h4>
           <div class="contact-form">
-            <form id="contact footer-contact" action="" method="post">
+            <form id="contact footer-contact"
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeG5g1uJ4hadb__yVkko3fMgyBmCdTyMXUByF0PfhnWI1vJpQ/formResponse"
+              method="post">
               <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                    <input name="entry.1889441395" type="text" class="form-control" id="fname" placeholder="Full Name" required="true">
                   </fieldset>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12">
                   <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*"
-                      placeholder="E-Mail Address" required="">
+                    <input name="entry.321133465" type="text" class="form-control" id="femail" pattern="[^ @]*@[^ @]*"
+                      placeholder="E-Mail Address" required="true">
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message"
-                      required=""></textarea>
+                    <input type="text" name="entry.2083866496" rows="6" class="form-control" id="fmessage"
+                      placeholder="Your Message" required="true">
+
+
                   </fieldset>
                 </div>
                 <div class="col-lg-12">
                   <fieldset>
-                    <button type="submit" id="form-submit" class="filled-button">Send Message</button>
+                    <button type="submit" id="form-submit" class="filled-button" >Send Message</button>
                   </fieldset>
                 </div>
               </div>
@@ -457,9 +875,9 @@ https://templatemo.com/tm-545-finance-business
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p>Copyright &copy; 2020 Financial Business Co., Ltd.
+          <p>Copyright &copy; 2024 Dashpute and Associates.
 
-            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            - Design: <a rel="nofollow noopener" href="http://probusstudio.com/" target="_blank"><b>Probus Studio</b></a></p>
         </div>
       </div>
     </div>
@@ -467,7 +885,10 @@ https://templatemo.com/tm-545-finance-business
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
 
   <!-- Additional Scripts -->
   <script src="assets/js/custom.js"></script>
@@ -485,6 +906,8 @@ https://templatemo.com/tm-545-finance-business
       }
     }
   </script>
+
+
 
 </body>
 

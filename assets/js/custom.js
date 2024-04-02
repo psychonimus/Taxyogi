@@ -141,5 +141,21 @@ jQuery( document ).ready(function( $ ) {
         });
         }
     })
+
+    $('#tabs ul li').click(function() {
+        // Remove active class from all li elements
+        $('#tabs ul li').removeClass('on');
+        
+        // Add active class to the clicked li element
+        $(this).addClass('on');
+
+        var index = $(this).index();
+        
+        // Hide all div elements
+        $('.block').hide();
+        
+        // Show the corresponding div based on the index
+        $('#div' + (index + 1)).show();
+      });
  
 });
