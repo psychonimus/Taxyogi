@@ -159,3 +159,38 @@ jQuery( document ).ready(function( $ ) {
       });
  
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Get the navbar toggler element
+    var navbarToggler = document.querySelector('.navbar-toggler');
+
+    // Get the collapse element
+    var collapse = document.querySelector('.navbar-collapse');
+
+    // Function to check if the navbar is open
+    function isNavbarOpen() {
+        return collapse.classList.contains('show');
+    }
+
+    // Function to close the navbar
+    function closeNavbar() {
+        collapse.classList.remove('show');
+    }
+
+    // Event listener for clicks on the document body
+    document.body.addEventListener('click', function (event) {
+        // Check if the click target is outside of the navbar and the navbar is open
+        if (!event.target.closest('.navbar') && isNavbarOpen()) {
+            closeNavbar();
+        }
+    });
+
+    // Event listener for clicks on the navbar toggler
+    navbarToggler.addEventListener('click', function () {
+        // Check if the navbar is open
+        if (isNavbarOpen()) {
+            closeNavbar();
+        }
+    });
+});
