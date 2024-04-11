@@ -916,7 +916,9 @@ https://templatemo.com/tm-545-finance-business
 
   buttons.forEach(function(button) {
     button.addEventListener("click", function() {
-      scrollToDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var offset = -150; // Offset value in pixels
+      var targetPosition = scrollToDiv.getBoundingClientRect().top + window.scrollY + offset;
+      window.scrollTo({ top: targetPosition, behavior: 'smooth' });
     });
   });
 </script>
