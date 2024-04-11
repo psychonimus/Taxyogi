@@ -1764,3 +1764,9 @@ footer .contact-form button.filled-button:hover {
 /* .drop-item:hover .dropbtn {
 	background-color: #3e8e41;
 } */
+.dropdown-menu{
+	text-align: center;
+}
+.dropdown-menu li a{
+	color: #012063;
+}
