@@ -147,7 +147,7 @@ https://templatemo.com/tm-545-finance-business
           </ul>
         </div>
         <div class="col-md-8">
-          <section class='tabs-content'>
+          <section class='tabs-content' id="scrollToDiv">
             <article id='tabs-1'>
               <img src="assets/images/formation_of_business_entity.webp" alt="Formation of Business Entity">
               <h2>Formation of Business Entity</h2><br>
@@ -368,7 +368,7 @@ https://templatemo.com/tm-545-finance-business
       </div>
 
 
-      <div id="scrollToDiv" >
+      <div  >
         <div class="row mt-5 pt-5 block" id="div1" style="display: flex;">
           <div class="col">
             <div class="">
@@ -916,7 +916,7 @@ https://templatemo.com/tm-545-finance-business
 
   buttons.forEach(function(button) {
     button.addEventListener("click", function() {
-      scrollToDiv.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      scrollToDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 </script>
