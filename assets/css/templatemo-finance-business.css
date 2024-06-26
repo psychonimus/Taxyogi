@@ -1,10 +1,3 @@
-/* 
-
-TemplateMo - Finance Business
-
-https://templatemo.com/tm-545-finance-business
-
-*/
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -486,7 +479,17 @@ header .navbar {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 95vh;
+	height: 75vh;
+	margin-top: 80px;
+}
+@media(min-width : 576px) and (max-width : 992px){
+	.Modern-Slider .item .img-fill {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 60vh;
+		margin-top: 80px;
+    }
 }
 
 .Modern-Slider .item-1 .img-fill {
@@ -727,7 +730,7 @@ ul.slick-dots {
 /* Services */
 
 .services {
-	margin-top: 140px;
+	margin-top: 70px;
 }
 
 .service-item img {
@@ -756,7 +759,7 @@ ul.slick-dots {
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 140px;
+	margin-top: 110px;
 	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -821,7 +824,7 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: 70px;
 }
 
 .more-info .left-image img {
@@ -878,7 +881,7 @@ ul.slick-dots {
 }
 
 .testimonials {
-	margin-top: 140px;
+	margin-top: 70px;
 	background-color: #f7f7f7;
 	padding: 140px 0px;
 }
@@ -929,7 +932,7 @@ ul.slick-dots {
 
 .contact-us {
 	background-color: #f7f7f7;
-	padding: 140px 0px;
+	padding: 70px 0px;
 }
 
 .contact-us .contact-form {
@@ -949,17 +952,17 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form input {
-	border-radius: 20px;
-	height: 40px;
+	border-radius: 10px;
+	height: 60px;
 	line-height: 40px;
 	display: inline-block;
 	padding: 0px 15px;
 	color: #6a6a6a;
 	font-size: 13px;
 	text-transform: none;
-	box-shadow: 0px 17px 15px -12px rgba(0,0,0,0.1);
+	box-shadow: 0px 17px 15px -30px rgba(0,0,0,0.1);
 	border: none;
-	margin-bottom: 35px;
+	margin-bottom: 25px;
 	width: 100%;
 }
 
@@ -1057,7 +1060,7 @@ ul.slick-dots {
 }
 
 .partners {
-	margin-top: 140px;
+	margin-top: 70px;
 	background-color: #f7f7f7;
 	padding: 60px 0px;
 }
@@ -1090,6 +1093,13 @@ footer h4 {
 	margin-bottom: 35px;
 
 }
+@media(max-width : 768px){
+	footer h4 {
+        margin-bottom: 10px;
+		font-weight: 500;
+		font-size : 17px;
+    }
+}
 
 footer p {
 	color: #fff;
@@ -1097,7 +1107,7 @@ footer p {
 }
 
 footer ul.social-icons {
-	margin-top: 25px;
+	margin-block: 25px;
 
 }
 
@@ -1266,7 +1276,7 @@ footer .contact-form button.filled-button:hover {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 200px 0px 150px 0px;
+	padding: 150px 0px 100px 0px;
 	color: #fff;
 
 }
@@ -1292,9 +1302,9 @@ footer .contact-form button.filled-button:hover {
 
 .team {
 	background-color: #f7f7f7;
-	margin-top: 140px;
+	margin-top: 70px;
 	margin-bottom: -140px;
-	padding: 120px 0px;
+	padding: 60px 0px;
 }
 
 .team-item img {
@@ -1330,19 +1340,26 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-	margin-top: 140px;
+	margin-top: 50px;
 }
 
 #tabs ul {
 	margin: 0;
 	padding: 0;
 }
+article ul{
+	list-style-type: disclosure-closed;
+	padding-left: 20px !important;
+}
 
 #tabs ul li {
 	margin-bottom: 10px;
-	display: inline-block;
+	
 	width: 100%;
+	font-size: 14px;
+    color: #7a7a7a;
 }
+
 
 #tabs ul li:last-child {
 	margin-bottom: 0px;
@@ -1382,7 +1399,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .tabs-content {
-	margin-left: 30px;
+
 	text-align: left;
 	display: inline-block;
 	transition: all 0.3s;
@@ -1420,11 +1437,11 @@ footer .contact-form button.filled-button:hover {
 /* Contact Information */
 
 .contact-information {
-	margin-top: 140px;
+	margin-top: 70px;
 }
 
 .contact-information .contact-item {
-	padding: 60px 30px;
+	padding: 30px;
 	background-color: #f7f7f7;
 	text-align: center;
 }
@@ -1510,14 +1527,14 @@ footer .contact-form button.filled-button:hover {
 	}
 
 	footer {
-		padding: 80px 0px 20px 0px;
+		padding: 30px 10px 0px 10px;
 
 	}
 
 	footer .footer-item {
-		border-bottom: 1px solid #343434;
-		margin-bottom: 30px;
-		padding-bottom: 30px;
+		border-bottom: 1px solid #c1c1c1;
+		margin-bottom: 10px;
+		
 	}
 
 	footer .last-item {
@@ -1579,7 +1596,7 @@ footer .contact-form button.filled-button:hover {
 
 	.navbar .navbar-nav a.nav-link {
 		padding: 15px 0px;
-		color: #1e1e1e !important;
+		
 	}
 
 	.navbar .navbar-nav .nav-link:hover,
@@ -1715,9 +1732,7 @@ footer .contact-form button.filled-button:hover {
 	border-radius: 10px;
 }
 
-.contact-item {
-	min-height: 385px;
-}
+
 
 @media(min-width:992px) and (max-width:1199px) {
 	.contact-item {
@@ -1725,17 +1740,13 @@ footer .contact-form button.filled-button:hover {
 	}
 }
 
-@media(min-width:768px) and (max-width:991px) {
+@media(min-width:993px){
 	.contact-item {
-		min-height: 496px;
+		height: 100%;
 	}
 }
 
-@media(max-width : 767px) {
-	.contact-item {
-		height: auto;
-	}
-}
+
 
 
 .drop-item {
@@ -1814,9 +1825,6 @@ footer .contact-form button.filled-button:hover {
 	justify-content: space-between;
 }
 .industry-box{
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	padding: 20px 40px;
 	background-color: transparent;
 	border: 1px solid #00319a;
@@ -1825,15 +1833,14 @@ footer .contact-form button.filled-button:hover {
     margin: 10px;
 	gap: 10px;
 	flex-grow: 1;
-	flex-wrap: wrap;
 	transition: 0.3s all ease;
+	text-align: center;
 }
-.industry-box i{
-	font-size: 30px;
-	color:#00319a;
+.industry-box img{
+	margin-bottom: 8px;
 }
 .industry-box h6{
-	font-weight: 800;
+	font-weight: 600;
 	color:#00319a;
 }
 
@@ -1859,4 +1866,19 @@ footer .contact-form button.filled-button:hover {
 .industry-box img{
 	width: 50px;
 	height: 50px;
+}
+
+@media(max-width : 992px){
+	.navbar-nav{
+		padding-bottom: 20px;
+	}
+}
+.team-img{
+	width: 100%;
+	height: 50%;
+}
+.card-body{
+	background-color: transparent;
+	border: none;
+	padding: 20px 0px;
 }
