@@ -497,7 +497,7 @@ header .navbar {
 }
 
 .Modern-Slider .item-2 .img-fill {
-	background-image: url(../images/slide3.png);
+	background-image: url(../images/slide_01.png);
 }
 
 .Modern-Slider .item-3 .img-fill {
@@ -1378,7 +1378,7 @@ article ul{
 }
 
 #tabs ul li a {
-	text-transform: capitalize;
+	
 	width: 100%;
 	/* padding: 30px 30px; */
 	padding-bottom: 10px;
@@ -1958,4 +1958,8 @@ article ul{
 	.pdf-img img{
 		width : 50%;
 	}
+}
+.footer-logo img{
+	scale: 1.2;
+	margin-left: 20px;
 }
